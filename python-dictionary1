@@ -5,10 +5,63 @@ my_dict = {}
 my_dict = {1: 'apple', 2: 'ball'}
 
 # dictionary with mixed keys
-my_dict = {'name': 'John', 1: [2, 4, 3]}
+my_dict =:{'apple': 'John', 1: [2, 4, 3]
 
 # using dict()
 my_dict = dict({1:'apple', 2:'ball'})
 
 # from sequence having each item as a pair
 my_dict = dict([(1,'apple'), (2,'ball')])
+x = 5  # Integer variable
+favorite_food = "pizza"  # String variable
+height = 5.2  # Float variable
+likes_python = True # Boolean variable
+
+print("x:", x)
+print("favorite food:", favorite_food)
+print("height:", height)
+print("likes python:", likes_python)
+
+# input() gives a string
+# int(input()) changes the string into a number
+num = int(input("Enter a number:"))
+
+if num > 0:
+    print("The number is positive.")
+elif num == 0:
+    print("The number is zero.")
+else:
+    print("The number is negative.")
+
+if num % 2 == 0:  # % gives remainder after division.
+    print("The number is even.")
+else:
+    print("The number is odd.")
+
+if num > 0 and num < 100:
+    print("The number is between 1 and 99.")
+
+if num < 0 or num > 100:
+    print("The number is not between 1 and 99.")
+keep
+Pinned
+
+Max Ch
+1:59 AM
+# for loops repeat code a certain number of times
+for i in range(5):
+    print("For loop number:", i)
+
+colors = ["red", "blue", "green", "yellow"]
+
+print("First color:", colors[0])  # Lists start at index 0
+print("Second color:", colors[1]) 
+print("Third color:", colors[2])
+print("Fourth color:", colors[3])
+print("List length:", len(colors))
+
+# Loop through list using indexes
+for i in range(len(colors)):
+    print("Index", i, "has", colors[i])
+keep
+Pinned
